@@ -74,3 +74,10 @@ border-spacing: 10px;
 #tableRow {
   display: table-row;
 }
+#drinks {
+  float: left;
+  background-color: #efe5d0;
+  font-size:        125%;
+  padding:          15px;
+  vertical-align:  top;
+}
