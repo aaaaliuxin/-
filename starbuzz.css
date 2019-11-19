@@ -25,6 +25,7 @@ body {
   font-size:        105%;
   padding:          15px;
   vertical-align:   top;
+  width:            280px;
 }
 
 #footer {
@@ -59,14 +60,7 @@ a:visited {
   text-decoration:  none;
   border-bottom:    thin dotted #675c47;
 }
-#lx {
-  width:            800px;
-  padding-top:      5px;
-  padding-bottom:   5px;
-  background-color: #675c47;
-  margin-left:      auto;
-  margin-right:     auto;
-}
+
 #tableContainer {
 display: table;
 border-spacing: 10px;
@@ -80,4 +74,28 @@ border-spacing: 10px;
   font-size:        125%;
   padding:          15px;
   vertical-align:  top;
+}
+.award {
+  position:         absolute;
+  top:              30px;
+  left:             365px;
+}
+.coupon {
+  position:         fixed;
+  top:              350px;
+  left:             -200px;
+}
+.coupon :hover {
+    position:       fixed;
+    top:            350px;
+    animation:      1s lx linear;
+    animation-fill-mode: forwards;
+}
+@keyframes lx{
+    from{left: -200px;}
+    10%{left:  -180px;}
+    20%{left:  -160px;}
+    30%{left:  -140px;}
+    50%{left:  -120px;}
+    to{left:   -20px;}
 }
